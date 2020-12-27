@@ -1,8 +1,12 @@
+/*global styling*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*this will be the base settings for our styling*/
 
 html {
     background-color: white;
@@ -14,7 +18,7 @@ html {
 
 }
 
-
+/*set for grid*/
 .row { 
     max-width: 1140px;
     margin: 0 auto;
@@ -43,6 +47,7 @@ h1 {
     word-spacing: 3px;
 }
 
+/*content box for the header*/
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -52,6 +57,7 @@ h1 {
 }
 
 /*common button style*/
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -66,6 +72,7 @@ h1 {
 }
 
 
+/*Button section below*/
 
 .btn-full:link,
 .btn-full:visited {
