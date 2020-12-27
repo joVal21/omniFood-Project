@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: rgb(78, 78, 78);
+    font-family: 'Lato',arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+.row { 
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/*in order to make the image 100% of the viewport, use height: 100%vh*/
+header {
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*we will make font size relative to the HTML font by using percentages*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*common button style*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    
+    
+}
+
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid  #e67e22;
+    margin-right: 20px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid  #e67e22;
+    color:#e67e22;;
+
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #7c4819;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid  #e67e22;
+    
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid  #e67e22;
+    color:#ffffff;;
+
+}
