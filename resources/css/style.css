@@ -1,12 +1,12 @@
-/*global styling*/
+/*------------------------------*/
+/* GLOBAL STYLING/BASIC SETUP */
+/*------------------------------*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/*this will be the base settings for our styling*/
 
 html {
     background-color: white;
@@ -18,24 +18,19 @@ html {
 
 }
 
-/*set for grid*/
+/*------------------------------*/
+/* REUSABLE COMPONENTS */
+/*------------------------------*/
+
 .row { 
     max-width: 1140px;
     margin: 0 auto;
 
 }
 
-/*in order to make the image 100% of the viewport, use height: 100%vh*/
-header {
-    
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(./images/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
 
+/*----HEADINGS----*/
 
-/*we will make font size relative to the HTML font by using percentages*/
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -47,16 +42,7 @@ h1 {
     word-spacing: 3px;
 }
 
-/*content box for the header*/
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*common button style*/
+/*----BUTTONS----*/
 
 .btn:link,
 .btn:visited {
@@ -67,12 +53,7 @@ h1 {
     border-radius: 200px;
     color: white;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
-    
-    
 }
-
-
-/*Button section below*/
 
 .btn-full:link,
 .btn-full:visited {
@@ -104,4 +85,24 @@ h1 {
     border: 1px solid  #e67e22;
     color:#ffffff;;
 
+}
+
+/*------------------------------*/
+/* HEADER */
+/*------------------------------*/
+
+header {
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
