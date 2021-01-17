@@ -98,6 +98,7 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    
 }
 
 .box {
@@ -228,4 +229,81 @@ header {
     border-bottom: 2px solid #e67e22;
 
 
+}
+
+/*------------------------------*/
+/* FEAUTURES */
+/*------------------------------*/
+
+.section-features .long-copy {
+    margin: 40px 0;
+}
+
+/*------------------------------*/
+/* MEALS */
+/*------------------------------*/
+
+.section-meals {
+    padding-top 15px;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: .5s;
+    
+}
+
+.meal-photo img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    
+
+}
+
+
+
+/*------------------------------*/
+/* HOW IT WORKS */
+/*------------------------------*/
+
+
+.steps-box {
+    margin-top: 30px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding: 3%;
+
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+
+}
+
+.app-screen {
+    width: 80%;
+    padding-right: 100px;
 }
