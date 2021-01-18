@@ -349,9 +349,14 @@ header {
     margin-top: 15%;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
 .btn-app {
     width: auto;
-    height: 50px;
+    height: 25px;
     
 
     
@@ -365,4 +370,31 @@ header {
 .box img {
     width: 100%;
     height: auto;
+    margin-bottom: 15PX;
+
+}
+
+.city-feature {
+    margin-bottom: 10px;
+    font-size: 95%;
+}
+
+.city-feature a {
+    text-decoration: none;
+    color: #e67e22;
+    border-bottom: 1px solid #e67e22;
+}
+
+a:hover {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.4s, color 0.4s;
+
+}
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    text-align: center;
+    line-height: 120% ;
 }
