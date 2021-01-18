@@ -26,6 +26,18 @@ html {
 
 }
 
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    
+
+
+}
+
 /*------------------------------*/
 /* REUSABLE COMPONENTS */
 /*------------------------------*/
@@ -287,6 +299,10 @@ header {
 /* HOW IT WORKS */
 /*------------------------------*/
 
+.section-steps {
+    background-color: rgb(218, 218, 218) ;
+}
+
 
 .steps-box {
     margin-top: 30px;
@@ -304,6 +320,39 @@ header {
 }
 
 .app-screen {
-    width: 80%;
+    width: 75%;
     padding-right: 100px;
+}
+
+.works-step {
+    margin-bottom: 50px;
+
+}
+
+.works-step div {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;;
+
+    
+}
+
+.works-step p {
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.btn-app {
+    width: auto;
+    height: 50px;
+    
+
+    
 }
