@@ -190,6 +190,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -255,9 +256,7 @@ header {
 /* MEALS */
 /*------------------------------*/
 
-.section-meals {
-    padding-top 15px;
-}
+
 
 .meals-showcase {
     list-style: none;
@@ -304,9 +303,7 @@ header {
 }
 
 
-.steps-box {
-    margin-top: 30px;
-}
+
 
 .steps-box:first-child {
     text-align: right;
@@ -397,4 +394,51 @@ a:hover {
     display: inline-block;
     text-align: center;
     line-height: 120% ;
+}
+
+
+/*------------------------------*/
+/* SECTION TESTIMONIALS */
+/*------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)), url(/resources/images/back-customers.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed; 
+
+}
+ li {
+     list-style: none;
+ }
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3px;
+}
+
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
